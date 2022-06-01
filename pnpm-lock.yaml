@@ -6,12 +6,14 @@ specifiers:
   '@types/react-dom': 18.0.5
   eslint: 8.16.0
   eslint-config-next: 12.1.6
+  hls.js: ^1.1.5
   next: 12.1.6
   react: 18.1.0
   react-dom: 18.1.0
   typescript: 4.7.2
 
 dependencies:
+  hls.js: 1.1.5
   next: 12.1.6_ef5jwxihqo6n7gxfmzogljlgcm
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
@@ -1051,6 +1053,10 @@ packages:
     dependencies:
       function-bind: 1.1.1
     dev: true
+
+  /hls.js/1.1.5:
+    resolution: {integrity: sha512-mQX5TSNtJEzGo5HPpvcQgCu+BWoKDQM6YYtg/KbgWkmVAcqOCvSTi0SuqG2ZJLXxIzdnFcKU2z7Mrw/YQWhPOA==}
+    dev: false
 
   /ignore/5.2.0:
     resolution: {integrity: sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==}
